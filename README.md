@@ -1,8 +1,8 @@
 ## Hango-Overdrive
 
 **Hango-Overdrive** is a distinctive **2D roguelike** that combines
-* 🎛️ factory management,
-* 🃏 card crafting, and
+* 🎛️ factory management
+* 🃏 card crafting
 * ⚔️ tactical dungeon combat.
 
 You’ll build and optimize your own production chains to manufacture **resources**, **equipment**, and **combat cards**. Once prepared, you can dive into dangerous dungeons where battles play out turn by turn, with no **movement** — your strategy relies entirely on **attack units**, **defensive tools**, and **special tactical cards**.
