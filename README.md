@@ -4,3 +4,7 @@ Hango-Overdrive is a unique 2D roguelike that blends factory management, card cr
 Death inside a dungeon is permanent, pushing the player to carefully prepare their production during the factory phase before each raid. Balancing optimization and calculated risk, <span style="color: green">Hango-Overdrive</span> offers a deep, tense, and highly addictive gameplay loop.
 
 The Ministry of Culture reminds you that if this project delights you, feel free to express yourself in the comments. Goodbye.
+
+<span style="color:red">
+Text content
+</span>
