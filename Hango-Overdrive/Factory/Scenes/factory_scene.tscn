@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=3 uid="uid://c0mt7b7t7vhyc"]
+
+[ext_resource type="PackedScene" uid="uid://da0gndiaqqjcb" path="res://Factory/Scenes/factory_manager.tscn" id="1_qwkoo"]
+[ext_resource type="Script" uid="uid://br8mxtthvy1br" path="res://Factory/Scenes/Camera2d.cs" id="2_h153q"]
+[ext_resource type="Script" uid="uid://bs63awsy547tf" path="res://Factory/Scripts/Ui.cs" id="2_qwkoo"]
+
+[node name="FactoryScene" type="Node2D"]
+
+[node name="FactoryManager" parent="." instance=ExtResource("1_qwkoo")]
+GridWidth = 0
+GridHeight = 0
+
+[node name="Camera2D" type="Camera2D" parent="."]
+script = ExtResource("2_h153q")
+
+[node name="UI" type="CanvasLayer" parent="."]
+script = ExtResource("2_qwkoo")
+
+[node name="BuildingButtons" type="VBoxContainer" parent="UI"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="DrillButton" type="Button" parent="UI/BuildingButtons"]
+layout_mode = 2
+text = "Foreuse"
+
+[node name="FurnaceButton" type="Button" parent="UI/BuildingButtons"]
+layout_mode = 2
+text = "Four"
+
+[node name="FactoryButton" type="Button" parent="UI/BuildingButtons"]
+layout_mode = 2
+text = "Usine"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="UI"]
+custom_minimum_size = Vector2(576, 40)
+offset_top = 284.0
+offset_right = 575.0
+offset_bottom = 324.0
+
+[node name="Ressource1Label" type="Label" parent="UI/HBoxContainer"]
+layout_mode = 2
+
+[node name="Ressource2Label" type="Label" parent="UI/HBoxContainer"]
+layout_mode = 2

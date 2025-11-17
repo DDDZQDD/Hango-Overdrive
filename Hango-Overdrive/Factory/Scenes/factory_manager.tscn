@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://da0gndiaqqjcb"]
+
+[ext_resource type="Script" uid="uid://c7y0ko5tcxprm" path="res://Factory/Scripts/FactoryManager.cs" id="1_qb7v0"]
+
+[node name="FactoryManager" type="Node2D"]
+script = ExtResource("1_qb7v0")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cur4q1e3s7o0o"]
+
+[ext_resource type="PackedScene" uid="uid://fi8rfd2pnclk" path="res://Factory/Scenes/building.tscn" id="1_66adl"]
+[ext_resource type="Texture2D" uid="uid://bwmor2hbq48tl" path="res://Assets/icon.svg" id="2_bs6d2"]
+
+[node name="Furnace" instance=ExtResource("1_66adl")]
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_bs6d2")

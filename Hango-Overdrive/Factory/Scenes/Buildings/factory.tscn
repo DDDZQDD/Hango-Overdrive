@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cftpmlmgdc24n"]
+
+[ext_resource type="PackedScene" uid="uid://fi8rfd2pnclk" path="res://Factory/Scenes/building.tscn" id="1_rbs0i"]
+[ext_resource type="Texture2D" uid="uid://bj46n7fnjuyb" path="res://Assets/Crystal_128_penguin.png" id="2_w351f"]
+
+[node name="Factory" instance=ExtResource("1_rbs0i")]
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_w351f")

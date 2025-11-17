@@ -1,0 +1,23 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Hango-Overdrive"
+config/description="Hango-Overdrive Hango-Overdrive is a unique 2D roguelike that blends factory management, card creation, and tactical dungeon combat. The player builds and optimizes production lines to craft resources, equipment, and combat cards. When ready, they dive into dungeons where each battle unfolds turn by turn, with no movement—only through combat unit cards, defense cards, and strategic abilities. Death inside a dungeon is permanent, pushing the player to carefully prepare their production during the factory phase before each raid. Balancing optimization and calculated risk, Hango-Overdrive offers a deep, tense, and highly addictive gameplay loop. The Ministry of Culture reminds you that if this project delights you, feel free to express yourself in the comments. Goodbye."
+config/version="0.0.1"
+run/main_scene="uid://c0mt7b7t7vhyc"
+config/features=PackedStringArray("4.5", "C#", "Forward Plus")
+config/icon="res://Assets/Hango-Overdrive_ICO.ico"
+config/windows_native_icon="res://Assets/Hango-Overdrive_ICO.ico"
+
+[dotnet]
+
+project/assembly_name="CL IC"
